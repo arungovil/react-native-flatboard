@@ -7,9 +7,9 @@ import StepIndicator from '../common/StepIndicator';
 type StandardStepperProps = {
   step: number;
   data: OnBoardingData[];
-  onFinish: (e: Event) => void;
-  previousStep: (e: Event) => void;
-  nextStep: (e: Event) => void;
+  onFinish: () => void;
+  previousStep: () => void;
+  nextStep: () => void;
   accentColor?: string;
   buttonTitle?: string;
   hideIndicator?: boolean;

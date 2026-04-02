@@ -8,7 +8,7 @@ import ListItem from '../components/common/ListItem';
 
 type FlatBoardProps = {
   data: OnBoardingData[];
-  onFinish: (e: Event) => void;
+  onFinish: () => void;
   accentColor?: string;
   backgroundColor?: string;
   buttonTitle?: string;
@@ -60,7 +60,7 @@ export default function FlatBoard({
       <FlatList
         horizontal
         showsHorizontalScrollIndicator={false}
-        keyExtractor={(item): any => item.id}
+        keyExtractor={item => String(item.id)}
         ref={swipeRef}
         pagingEnabled
         onMomentumScrollEnd={event => {

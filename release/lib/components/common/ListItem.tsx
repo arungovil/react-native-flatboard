@@ -1,10 +1,16 @@
 import React from 'react';
-import {View, Text, Image, useWindowDimensions} from 'react-native';
+import {
+  View,
+  Text,
+  Image,
+  useWindowDimensions,
+  ImageSourcePropType,
+} from 'react-native';
 import {styles} from '../../styles';
 import {TextStyles} from '../../types';
 
 type ListItemProps = {
-  icon: any;
+  icon: ImageSourcePropType;
   title: string;
   description: string;
   headingStyle?: TextStyles;

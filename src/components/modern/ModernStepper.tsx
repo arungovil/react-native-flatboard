@@ -7,7 +7,7 @@ import StepIndicator from '../common/StepIndicator';
 type ModernStepperProps = {
   step: number;
   data: OnBoardingData[];
-  onFinish: (e: Event) => void;
+  onFinish: () => void;
   accentColor?: string;
   buttonTitle?: string;
   hideIndicator?: boolean;
