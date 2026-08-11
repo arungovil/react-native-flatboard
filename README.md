@@ -1,3 +1,5 @@
+
+
 <p align="center">
 <h2 align="center"><a href="https://www.npmjs.com/package/react-native-flatboard">react-native-flatboard</a></h2>
 </p>
@@ -51,7 +53,7 @@ export default function App() {
         backgroundColor="#ecfccb"
         buttonTitle="Lets Go"
         hideIndicator
-        headingStyles={{
+        headingStyle={{
           fontSize: 24,
           color: '#93c01f',
           textAlign: 'center',
@@ -141,14 +143,14 @@ const data = [
     <td>Hide step indicator.</td>
   </tr> 
   <tr>
-  <td>headingStyles</td>
+  <td>headingStyle</td>
   <td>StyleSheet</td>
   <td>false</td>
   <td>default styles</td>
   <td>Custom text styles for heading</td>
   </tr>
   <tr>
-  <td>descriptionStyles</td>
+  <td>descriptionStyle</td>
   <td>StyleSheet</td>
   <td>false</td>
   <td>default styles</td>
