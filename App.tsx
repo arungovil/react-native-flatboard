@@ -2,12 +2,13 @@ import {View} from 'react-native';
 import React from 'react';
 import FlatBoard from './src/screens/FlatBoard';
 import {OnBoarding} from './src/data/OnBoarding';
+import {TextStyles} from './src/types';
 
 const onComplete = () => {
   console.log('Done');
 };
 
-const headingStyle = {
+const headingStyle: TextStyles = {
   fontSize: 22,
   textAlign: 'center',
   color: '#93c01f',
