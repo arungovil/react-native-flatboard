@@ -1,7 +1,15 @@
 {
-  "name": "FlatBoard",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-flatboard",
+  "version": "1.0.9",
+  "description": "A Flatlist based onboarding screen for React Native",
+  "main": "src/screens/FlatBoard.tsx",
+  "types": "src/screens/FlatBoard.tsx",
+  "files": [
+    "src/screens",
+    "src/components",
+    "src/styles",
+    "src/types"
+  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -10,8 +18,8 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-native": "0.70.15"
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -46,5 +54,22 @@
   },
   "resolutions": {
     "@types/react": "~18.0.38"
-  }
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arungovil/react-native-flatboard.git"
+  },
+  "keywords": [
+    "onboarding",
+    "react-native",
+    "flatlist",
+    "swipeable",
+    "indicator"
+  ],
+  "author": "Arun Govil",
+  "license": "MIT"
 }
